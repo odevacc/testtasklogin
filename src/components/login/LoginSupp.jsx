@@ -12,8 +12,6 @@ const LoginSupp = ({ isAuth, login }) => {
     const onSubmit = (values) => {
         const { username, password } = values
         login(username, password)
-        console.log(username, password)
-
     }
     if (isAuth) {
         return <Redirect to='/profile' />

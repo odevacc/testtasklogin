@@ -6,7 +6,6 @@ import { NewInput } from '../utils/CustomFormFields';
 const { Title } = Typography
 
 const Login = ({ handleSubmit, pristine, invalid }) => {
-    debugger
     return (
         <div>
             <Col
